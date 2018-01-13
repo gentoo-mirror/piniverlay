@@ -19,7 +19,7 @@ IUSE="+alt-ergo +coq gtk +ocamlopt test +why3"
 DEPEND=">=dev-lang/ocaml-4.02.3[ocamlopt?]
         >=dev-ml/findlib-1.6.1[ocamlopt?]
         >=dev-ml/ocamlgraph-1.8.8[gtk?,ocamlopt?]
-        dev-ml/zarith
+        dev-ml/zarith[ocamlopt?]
         gtk? (
         	dev-ml/lablgtk[sourceview,gnomecanvas,ocamlopt?]
         	gnome-base/libgnomecanvas
@@ -32,10 +32,10 @@ RDEPEND="alt-ergo? ( sci-mathematics/alt-ergo[gtk?,ocamlopt?] )
          why3?     ( sci-mathematics/why3-for-spark[coq?,gtk?,ocamlopt?,zarith] )"
 
 src_prepare() {
+	default
 	find "${FILESDIR}/${PN}/${PV}" -type f -name "*.diff" | while read patchfile; do
 		eapply "${patchfile}"
 	done
-	eapply_user
 }
 
 src_configure() {
