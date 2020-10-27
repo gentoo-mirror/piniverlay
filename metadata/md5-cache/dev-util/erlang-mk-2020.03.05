@@ -1,12 +1,11 @@
 BDEPEND=>=sys-devel/make-4
 DEFINED_PHASES=compile install
-DEPEND=>=sys-devel/make-4
 DESCRIPTION=A build tool for Erlang that just works.
 EAPI=7
 HOMEPAGE=https://github.com/ninenines/erlang.mk
 KEYWORDS=amd64 x86
 LICENSE=ISC
-RDEPEND=>=sys-devel/make-4
+RDEPEND=>=sys-devel/make-4 >=app-text/asciidoc-9.0.2 >=app-text/dblatex-0.3.11 >=dev-libs/libxslt-1.1.34
 SLOT=0
 SRC_URI=https://github.com/ninenines/erlang.mk/archive/2020.03.05.tar.gz -> erlang.mk-2020.03.05.tar.gz
-_md5_=7bdc90aeb8aedcdcbd55b97c42e29b8c
+_md5_=6746d51a02d8921c1c52f601e3a2d051
