@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/ocaml-4.11.1[ocamlopt?] >=dev-ml/dune-3.2.0 dev-ml/dune-configurator[ocamlopt?] dev-ml/dune-private-libs[ocamlopt?] dev-ml/dune-site[ocamlopt?] dev-ml/ppx_deriving[ocamlopt?] dev-ml/ppx_deriving_yojson[ocamlopt?] dev-ml/ppx_import[ocamlopt?] dev-ml/findlib[ocamlopt?] >=dev-ml/ocamlgraph-1.8.8[ocamlopt?] >=dev-ml/result-1.5[ocamlopt?] >=dev-ml/yojson-1.6.0[ocamlopt?] <dev-ml/yojson-2.0.0[ocamlopt?] >=dev-ml/zarith-1.5[ocamlopt?]
+DEFINED_PHASES=compile install test
+DEPEND=sci-mathematics/alt-ergo[ocamlopt?] >=sci-mathematics/why3-1.5.1[gtk?,ocamlopt?,zarith] <sci-mathematics/why3-1.6.0[gtk?,ocamlopt?,zarith] gtk? ( >=dev-ml/cairo2-0.6.2[ocamlopt?] >=dev-ml/lablgtk-3.1.0[ocamlopt?] dev-ml/lablgtk-sourceview[ocamlopt?] x11-libs/gtksourceview:3.0 )
+DESCRIPTION=Framework for analysis of source codes written in C
+EAPI=8
+HOMEPAGE=http://frama-c.com
+IUSE=gtk +ocamlopt
+KEYWORDS=~amd64
+LICENSE=LGPL-2
+SLOT=0
+SRC_URI=http://frama-c.com/download/frama-c-26.1-Iron.tar.gz
+_md5_=e62627627dd3981c2ad82cb47d17ab80
