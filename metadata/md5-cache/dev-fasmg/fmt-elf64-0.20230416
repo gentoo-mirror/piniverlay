@@ -1,0 +1,10 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+KEYWORDS=*
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.k0v2.zip
+_md5_=f11b5aaca304de4b15ea3708e90030c4
