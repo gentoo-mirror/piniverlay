@@ -1,0 +1,10 @@
+BDEPEND=app-arch/unzip sys-apps/diffutils
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.k328.zip
+_md5_=b1634d92aabe6a4c7969df1bf496354f

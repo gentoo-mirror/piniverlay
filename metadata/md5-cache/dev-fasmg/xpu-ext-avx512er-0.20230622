@@ -1,0 +1,12 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-fasmg/xpu-ext-avx512f
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-fasmg/xpu-ext-avx512f
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.k328.zip
+_md5_=91a36db89a6256ca7ab3f29aee94a275

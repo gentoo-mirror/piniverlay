@@ -1,0 +1,12 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-fasmg/xpu-i80387 dev-fasmg/xpu-i80486
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-fasmg/xpu-i80387 dev-fasmg/xpu-i80486
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.k328.zip
+_md5_=0298187aae107f3c7685d9ba249945a3

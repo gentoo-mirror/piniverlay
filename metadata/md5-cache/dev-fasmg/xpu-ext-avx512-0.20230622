@@ -1,0 +1,12 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-fasmg/xpu-ext-avx512bw dev-fasmg/xpu-ext-avx512cd dev-fasmg/xpu-ext-avx512dq dev-fasmg/xpu-ext-avx512f dev-fasmg/xpu-ext-avx512vl dev-fasmg/xpu-ext-avx512_ifma dev-fasmg/xpu-ext-avx512_vbmi
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-fasmg/xpu-ext-avx512bw dev-fasmg/xpu-ext-avx512cd dev-fasmg/xpu-ext-avx512dq dev-fasmg/xpu-ext-avx512f dev-fasmg/xpu-ext-avx512vl dev-fasmg/xpu-ext-avx512_ifma dev-fasmg/xpu-ext-avx512_vbmi
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.k328.zip
+_md5_=338b4355308bf5e6797334aca8c76964
