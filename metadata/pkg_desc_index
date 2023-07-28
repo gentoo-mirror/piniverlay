@@ -78,4 +78,5 @@ dev-lang/fasmg 0.20230416 0.20230622: Flat assembler
 dev-util/erlang-mk 2020.03.05 2020.03.05-r1: A build tool for Erlang that just works.
 dev-util/wabt 1.0.26 1.0.27: The WebAssembly Binary Toolkit
 dev-util/wasmtime 0.34.1: A standalone runtime for WebAssembly
+media-gfx/pikchr 0.20230723: A PIC-like markup language for diagrams in technical documentation.
 sci-mathematics/frama-c 26.1: Framework for analysis of source codes written in C

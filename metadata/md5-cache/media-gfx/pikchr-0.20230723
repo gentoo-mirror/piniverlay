@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A PIC-like markup language for diagrams in technical documentation.
+EAPI=8
+HOMEPAGE=https://pikchr.org
+KEYWORDS=~amd64
+LICENSE=0BSD
+SLOT=0
+SRC_URI=https://pikchr.org/home/tarball/589586a89e/pikchr-589586a89e.tar.gz
+_md5_=d883fdcd15a3331cdf10361b4c5ed826
