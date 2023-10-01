@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-fasmg/xpu-ext-avx2
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+INHERIT=fasmg-module
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-fasmg/xpu-ext-avx2
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.k4v8.zip
+_eclasses_=fasmg-module	dd799788c28ba2a06f84a4ed87ba6880
+_md5_=32d6d7b60f26a5a5d60eedca4f21d15e
