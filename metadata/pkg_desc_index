@@ -1,7 +1,7 @@
 app-editors/lite-xl 2.1.1: A lightweight text editor written in Lua, adapted from lite
 app-vim/vim-nelua 9999: Syntax highlighting for Nelua programming language
 dev-c3/std 0.5 0.5.1 9999: Standard library for the C3 programming language
-dev-cpp/notcurses 3.0.9: Blingful TUIs and character graphics
+dev-cpp/notcurses 3.0.9 3.0.9-r1: Blingful TUIs and character graphics
 dev-fasmg/fmt-coff 0.20230416 0.20230622 0.20230802: Flat assembler
 dev-fasmg/fmt-coffms 0.20230416 0.20230622 0.20230802: Flat assembler
 dev-fasmg/fmt-elf32 0.20230416 0.20230622 0.20230802: Flat assembler
