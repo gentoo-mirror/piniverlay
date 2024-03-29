@@ -80,7 +80,6 @@ dev-fasmg/xpu-x64 0.20230416 0.20230622 0.20230802: Flat assembler
 dev-lang/c3 0.5 0.5.1 0.5.4 9999: A system programming language based on C
 dev-lang/fasm 1.73.30 1.73.31: Flat assembler
 dev-lang/fasmg 0.20230416 0.20230622 0.20230802: Flat assembler
-dev-lang/nelua 9999: Typed compiled metaprogrammable safe programming language with a Lua flavor
 dev-util/carburetta 0.8.20: An open source fused scanner parser generator for the C and C++ languages
 dev-util/erlang-mk 2020.03.05 2020.03.05-r1: A build tool for Erlang that just works.
 dev-util/kconfig 6.4.7 6.6.13: A configuration database tool.
