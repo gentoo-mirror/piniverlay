@@ -1,0 +1,10 @@
+BDEPEND=app-arch/unzip sys-apps/diffutils
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+KEYWORDS=amd64
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.kd3c.zip
+_md5_=0dbe4df1ca8890bdaec209174b474dbe
