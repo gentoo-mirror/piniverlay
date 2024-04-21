@@ -1,4 +1,5 @@
 app-editors/lite-xl 2.1.1: A lightweight text editor written in Lua, adapted from lite
+app-vim/fasmg-syntax 0.0.1: vim plugin: fasmg syntax
 app-vim/vim-nelua 9999: Syntax highlighting for Nelua programming language
 dev-build/tup 0.7.11 0.8: File-based build system
 dev-c3/std 0.5 0.5.1 0.5.4 9999: Standard library for the C3 programming language
