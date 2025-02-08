@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-fasmg/xpu-avr
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+INHERIT=fasmg-module
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-fasmg/xpu-avr
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.kp60.zip
+_eclasses_=fasmg-module	dd799788c28ba2a06f84a4ed87ba6880
+_md5_=965a0cac60bdc5d4e03d47ada8c24f5f

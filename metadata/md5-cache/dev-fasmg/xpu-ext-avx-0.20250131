@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip app-text/dos2unix
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-fasmg/xpu-ext-sse42 dev-fasmg/xpu-ext-xsave
+DESCRIPTION=Flat assembler
+EAPI=8
+HOMEPAGE=https://flatassembler.net
+INHERIT=fasmg-module
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-fasmg/xpu-ext-sse42 dev-fasmg/xpu-ext-xsave
+SLOT=0
+SRC_URI=https://flatassembler.net/fasmg.kp60.zip
+_eclasses_=fasmg-module	dd799788c28ba2a06f84a4ed87ba6880
+_md5_=762011149309b519a453db214fac65f8
