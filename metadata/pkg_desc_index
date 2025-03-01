@@ -2,7 +2,7 @@ app-editors/lite-xl 2.1.1: A lightweight text editor written in Lua, adapted fro
 app-vim/fasmg-syntax 0.0.1: vim plugin: fasmg syntax
 app-vim/vim-nelua 9999: Syntax highlighting for Nelua programming language
 dev-build/tup 0.7.11 0.8: File-based build system
-dev-c3/std 0.5 0.5.1 0.5.4 9999: Standard library for the C3 programming language
+dev-c3/std 0.6.7 9999: Standard library for the C3 programming language
 dev-cpp/notcurses 3.0.9 3.0.9-r1 3.0.11 3.0.13: Blingful TUIs and character graphics
 dev-fasmg/fmt-coff 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat assembler
 dev-fasmg/fmt-coffms 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat assembler
@@ -78,7 +78,7 @@ dev-fasmg/xpu-jvm 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat a
 dev-fasmg/xpu-p5 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat assembler
 dev-fasmg/xpu-p6 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat assembler
 dev-fasmg/xpu-x64 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat assembler
-dev-lang/c3 0.5 0.5.1 0.5.4 9999: A system programming language based on C
+dev-lang/c3 0.6.7 9999: A system programming language based on C
 dev-lang/fasm 1.73.30 1.73.31 1.73.32: Flat assembler
 dev-lang/fasmg 0.20230416 0.20230622 0.20230802 0.20240311 0.20250131: Flat assembler
 dev-util/carburetta 0.8.20: An open source fused scanner parser generator for the C and C++ languages
