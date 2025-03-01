@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-PYTHON_COMPAT=( python3_{8,9,10,11,12} )
+PYTHON_COMPAT=( python3_{8,9,10,11,12,13} )
 inherit python-any-r1
 
 DESCRIPTION="A system programming language based on C"
@@ -18,7 +18,7 @@ IUSE="test"
 KEYWORDS="~amd64"
 RESTRICT="!test? ( test )"
 
-DEPEND="sys-devel/llvm"
+DEPEND="llvm-core/llvm"
 RDEPEND="${DEPEND}"
 BDEPEND="test? ( ${PYTHON_DEPS} )"
 
